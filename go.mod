@@ -2,7 +2,11 @@ module github.com/SAP/jenkins-library
 
 go 1.24.0
 
-replace github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
+replace (
+github.com/imdario/mergo => github.com/imdario/mergo v0.3.16
+github.com/SAP/jenkins-library => ./
+)
+
 
 require (
 	cloud.google.com/go/pubsub v1.36.1
