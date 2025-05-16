@@ -104,6 +104,7 @@ func GetAllStepMetadata() map[string]config.StepData {
 		"npmExecuteLint":                            npmExecuteLintMetadata(),
 		"npmExecuteScripts":                         npmExecuteScriptsMetadata(),
 		"npmExecuteTests":                           npmExecuteTestsMetadata(),
+		"opentofuExecute":                           opentofuExecuteMetadata(),
 		"pipelineCreateScanSummary":                 pipelineCreateScanSummaryMetadata(),
 		"protecodeExecuteScan":                      protecodeExecuteScanMetadata(),
 		"pythonBuild":                               pythonBuildMetadata(),
